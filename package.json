@@ -1,0 +1,14 @@
+{
+  "name": "type-chain",
+  "version": "1.0.0",
+  "description": "노마드코더 타입스크립트로 블록체인 만들기 #5",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
