@@ -5,7 +5,7 @@
  * @param {string} config.url
  * @param {string} config.initDate
  * @param {number} config.count
- * @returns {boolean}
+ * @returns {boolean} boolean
  */
 export function init(config) {
     return true;
