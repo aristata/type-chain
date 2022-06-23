@@ -9,9 +9,14 @@
     // 어떤 자바스크립트 버전으로 컴파일 할것인지를 결정한다
     "target": "ES6",
     // 자바스크립트 코드가 어디에서 동작할지를 설정한다
-    "lib": ["ES6", "DOM"],
+    "lib": [
+      "ES6"
+      /*, "DOM"*/
+    ],
     "strict": true,
     // JSDoc 기능
-    "allowJs": true,
+    // "allowJs": true,
+    "esModuleInterop": true,
+    "module": "CommonJS"
   }
 }
